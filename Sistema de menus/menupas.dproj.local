@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2022/09/23 18:37:20.000.888,=C:\Users\lhowe\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2022/09/23 21:05:06.000.670,=C:\Users\lhowe\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2022/09/30 19:13:05.046,=C:\Users\lhowe\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2022/09/30 19:15:30.607,C:\Users\lhowe\Desktop\menu1.0\menu.dfm=C:\Users\lhowe\Documents\Embarcadero\Studio\Projects\Unit1.dfm</Transaction>
+    <Transaction>2022/09/30 19:15:30.607,C:\Users\lhowe\Desktop\menu1.0\menu.pas=C:\Users\lhowe\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2022/09/30 19:16:38.471,C:\Users\lhowe\Desktop\menu1.0\menupas.dproj=C:\Users\lhowe\Documents\Embarcadero\Studio\Projects\Project1.dproj</Transaction>
+    <Transaction>2022/09/30 19:16:48.762,=C:\Users\lhowe\Desktop\menu1.0\Unit2.pas</Transaction>
+    <Transaction>2022/09/30 19:17:36.735,C:\Users\lhowe\Desktop\menu1.0\ufrm.dfm=C:\Users\lhowe\Desktop\menu1.0\Unit2.dfm</Transaction>
+    <Transaction>2022/09/30 19:17:36.735,C:\Users\lhowe\Desktop\menu1.0\ufrm.pas=C:\Users\lhowe\Desktop\menu1.0\Unit2.pas</Transaction>
+    <Transaction>2022/09/30 19:17:43.423,=C:\Users\lhowe\Desktop\menu1.0\Unit3.pas</Transaction>
+    <Transaction>2022/09/30 19:18:36.568,C:\Users\lhowe\Desktop\menu1.0\fornecedores.pas=C:\Users\lhowe\Desktop\menu1.0\Unit3.pas</Transaction>
+    <Transaction>2022/09/30 19:18:36.568,C:\Users\lhowe\Desktop\menu1.0\fornecedores.dfm=C:\Users\lhowe\Desktop\menu1.0\Unit3.dfm</Transaction>
+    <Transaction>2022/09/30 19:18:50.834,=C:\Users\lhowe\Desktop\menu1.0\Unit4.pas</Transaction>
+    <Transaction>2022/09/30 19:19:12.823,C:\Users\lhowe\Desktop\menu1.0\produtos.dfm=C:\Users\lhowe\Desktop\menu1.0\Unit4.dfm</Transaction>
+    <Transaction>2022/09/30 19:19:12.823,C:\Users\lhowe\Desktop\menu1.0\produtos.pas=C:\Users\lhowe\Desktop\menu1.0\Unit4.pas</Transaction>
+    <Transaction>2022/09/30 19:22:41.106,C:\Users\lhowe\Desktop\menu1.0\ufrmCliente.dfm=C:\Users\lhowe\Desktop\menu1.0\ufrm.dfm</Transaction>
+    <Transaction>2022/09/30 19:22:41.106,C:\Users\lhowe\Desktop\menu1.0\ufrmCliente.pas=C:\Users\lhowe\Desktop\menu1.0\ufrm.pas</Transaction>
+    <Transaction>2022/09/30 19:22:50.332,C:\Users\lhowe\Desktop\menu1.0\uFrmprodutos.dfm=C:\Users\lhowe\Desktop\menu1.0\produtos.dfm</Transaction>
+    <Transaction>2022/09/30 19:22:50.332,C:\Users\lhowe\Desktop\menu1.0\uFrmprodutos.pas=C:\Users\lhowe\Desktop\menu1.0\produtos.pas</Transaction>
+    <Transaction>2022/09/30 19:23:24.109,C:\Users\lhowe\Desktop\menu1.0\uFrmfornecedores.pas=C:\Users\lhowe\Desktop\menu1.0\fornecedores.pas</Transaction>
+    <Transaction>2022/09/30 19:23:24.109,C:\Users\lhowe\Desktop\menu1.0\uFrmfornecedores.dfm=C:\Users\lhowe\Desktop\menu1.0\fornecedores.dfm</Transaction>
+    <Transaction>2022/09/30 19:24:34.415,C:\Users\lhowe\Desktop\menu1.0\uFrmPrincipal.pas=C:\Users\lhowe\Desktop\menu1.0\menu.pas</Transaction>
+    <Transaction>2022/09/30 19:24:34.415,C:\Users\lhowe\Desktop\menu1.0\uFrmPrincipal.dfm=C:\Users\lhowe\Desktop\menu1.0\menu.dfm</Transaction>
+  </Transactions>  <ProjectSortOrder AutoSort="0" SortType="0">
+    <File Path="uFrmfornecedores.pas"/>
+    <File Path="uFrmfornecedores.dfm"/>
+    <File Path="uFrmPrincipal.pas"/>
+    <File Path="uFrmPrincipal.dfm"/>
+    <File Path="ufrmCliente.pas"/>
+    <File Path="ufrmCliente.dfm"/>
+    <File Path="uFrmprodutos.pas"/>
+    <File Path="uFrmprodutos.dfm"/>
+  </ProjectSortOrder>
+</BorlandProject>
