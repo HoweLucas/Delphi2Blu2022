@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2022/09/23 18:37:20.000.888,=C:\Users\lhowe\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2022/09/23 21:05:06.000.670,=C:\Users\lhowe\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2022/09/28 21:47:12.000.515,=C:\Users\lhowe\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2022/09/28 21:56:14.000.254,C:\Users\lhowe\Documents\Embarcadero\Studio\Projects\Unit1.dfm=C:\Users\lhowe\Desktop\Lucas Howe\intervalode1a5.dfm</Transaction>
+    <Transaction>2022/09/28 21:56:14.000.254,C:\Users\lhowe\Documents\Embarcadero\Studio\Projects\Unit1.pas=C:\Users\lhowe\Desktop\Lucas Howe\intervalode1a5.pas</Transaction>
+    <Transaction>2022/09/28 21:56:32.000.964,C:\Users\lhowe\Documents\Embarcadero\Studio\Projects\Project1.dproj=C:\Users\lhowe\Desktop\Lucas Howe\Informar numeros com o intervalo de 1 a 5\Intervalos.dproj</Transaction>
+  </Transactions>
+</BorlandProject>

@@ -1,0 +1,60 @@
+﻿<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+    <PropertyGroup>
+        <ProjectGuid>{F676B871-D182-4997-8BFB-A375D241BBE2}</ProjectGuid>
+    </PropertyGroup>
+    <ItemGroup>
+        <Projects Include="Mediaescola.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="..\intervalo dos numeros\intervalodosnumeros.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="..\Idade.dproj">
+            <Dependencies/>
+        </Projects>
+    </ItemGroup>
+    <ProjectExtensions>
+        <Borland.Personality>Default.Personality.12</Borland.Personality>
+        <Borland.ProjectType/>
+        <BorlandProject>
+            <Default.Personality/>
+        </BorlandProject>
+    </ProjectExtensions>
+    <Target Name="Mediaescola">
+        <MSBuild Projects="Mediaescola.dproj"/>
+    </Target>
+    <Target Name="Mediaescola:Clean">
+        <MSBuild Projects="Mediaescola.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="Mediaescola:Make">
+        <MSBuild Projects="Mediaescola.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="intervalodosnumeros">
+        <MSBuild Projects="..\intervalo dos numeros\intervalodosnumeros.dproj"/>
+    </Target>
+    <Target Name="intervalodosnumeros:Clean">
+        <MSBuild Projects="..\intervalo dos numeros\intervalodosnumeros.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="intervalodosnumeros:Make">
+        <MSBuild Projects="..\intervalo dos numeros\intervalodosnumeros.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="Idade">
+        <MSBuild Projects="..\Idade.dproj"/>
+    </Target>
+    <Target Name="Idade:Clean">
+        <MSBuild Projects="..\Idade.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="Idade:Make">
+        <MSBuild Projects="..\Idade.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="Build">
+        <CallTarget Targets="Mediaescola;intervalodosnumeros;Idade"/>
+    </Target>
+    <Target Name="Clean">
+        <CallTarget Targets="Mediaescola:Clean;intervalodosnumeros:Clean;Idade:Clean"/>
+    </Target>
+    <Target Name="Make">
+        <CallTarget Targets="Mediaescola:Make;intervalodosnumeros:Make;Idade:Make"/>
+    </Target>
+    <Import Project="$(BDS)\Bin\CodeGear.Group.Targets" Condition="Exists('$(BDS)\Bin\CodeGear.Group.Targets')"/>
+</Project>

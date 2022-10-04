@@ -1,0 +1,77 @@
+object Form1: TForm1
+  Left = 0
+  Top = 0
+  Caption = 'Form1'
+  ClientHeight = 281
+  ClientWidth = 484
+  Color = clBtnFace
+  Font.Charset = DEFAULT_CHARSET
+  Font.Color = clWindowText
+  Font.Height = -11
+  Font.Name = 'Tahoma'
+  Font.Style = []
+  OldCreateOrder = False
+  PixelsPerInch = 96
+  TextHeight = 13
+  object Label1: TLabel
+    Left = 152
+    Top = 24
+    Width = 143
+    Height = 16
+    Caption = 'Calcular Conta de Luz '
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -13
+    Font.Name = 'Tahoma'
+    Font.Style = [fsBold]
+    ParentFont = False
+  end
+  object Label2: TLabel
+    Left = 32
+    Top = 56
+    Width = 405
+    Height = 14
+    Caption = 
+      'Informe se o cliente '#233' de residencia, comercio ou de uma industr' +
+      'ia'
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -12
+    Font.Name = 'Tahoma'
+    Font.Style = [fsBold]
+    ParentFont = False
+  end
+  object Button1: TButton
+    Left = 176
+    Top = 88
+    Width = 89
+    Height = 33
+    Caption = 'Calcular'
+    TabOrder = 0
+    OnClick = Button1Click
+  end
+  object Tresidencia: TEdit
+    Left = 104
+    Top = 136
+    Width = 265
+    Height = 21
+    TabOrder = 1
+    Text = 'resid'#234'ncia'
+  end
+  object Tcomercio: TEdit
+    Left = 104
+    Top = 163
+    Width = 265
+    Height = 21
+    TabOrder = 2
+    Text = 'Com'#234'rcio'
+  end
+  object Tindustria: TEdit
+    Left = 104
+    Top = 190
+    Width = 265
+    Height = 21
+    TabOrder = 3
+    Text = 'Ind'#250'stria'
+  end
+end

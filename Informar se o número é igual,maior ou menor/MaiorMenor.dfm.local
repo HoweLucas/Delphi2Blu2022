@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2022/09/23 18:37:20.000.888,=C:\Users\lhowe\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2022/09/23 21:05:06.000.670,=C:\Users\lhowe\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2022/09/28 21:28:32.067,=C:\Users\lhowe\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2022/09/28 21:46:26.855,C:\Users\lhowe\Desktop\Lucas Howe\Informar se o número é igual,maior ou menor\maiorMenorOuIgual.dfm=C:\Users\lhowe\Documents\Embarcadero\Studio\Projects\Unit1.dfm</Transaction>
+    <Transaction>2022/09/28 21:46:26.855,C:\Users\lhowe\Desktop\Lucas Howe\Informar se o número é igual,maior ou menor\maiorMenorOuIgual.pas=C:\Users\lhowe\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2022/09/28 21:46:46.640,C:\Users\lhowe\Desktop\Lucas Howe\Informar se o número é igual,maior ou menor\MaiorMenor.dfm=C:\Users\lhowe\Documents\Embarcadero\Studio\Projects\Project1.dproj</Transaction>
+  </Transactions>
+</BorlandProject>

@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2022/09/23 18:37:20.000.888,=C:\Users\lhowe\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2022/09/23 21:05:06.000.670,=C:\Users\lhowe\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2022/09/28 20:08:04.053,=C:\Users\lhowe\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2022/09/28 20:10:39.812,C:\Users\lhowe\Desktop\Lucas Howe\informe o preço de custo e o preço de venda\CustoEpreço.dfm=C:\Users\lhowe\Documents\Embarcadero\Studio\Projects\Unit1.dfm</Transaction>
+    <Transaction>2022/09/28 20:10:39.812,C:\Users\lhowe\Desktop\Lucas Howe\informe o preço de custo e o preço de venda\CustoEpreço.pas=C:\Users\lhowe\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2022/09/28 20:10:57.422,C:\Users\lhowe\Desktop\Lucas Howe\informe o preço de custo e o preço de venda\PreçoEcusto.dproj=C:\Users\lhowe\Documents\Embarcadero\Studio\Projects\Project1.dproj</Transaction>
+  </Transactions>
+</BorlandProject>

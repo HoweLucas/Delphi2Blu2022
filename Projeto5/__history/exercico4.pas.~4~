@@ -1,0 +1,160 @@
+unit exercico4;
+
+interface
+
+uses
+  Winapi.Windows, Winapi.Messages, System.SysUtils, System.Variants, System.Classes, Vcl.Graphics,
+  Vcl.Controls, Vcl.Forms, Vcl.Dialogs, Vcl.StdCtrls;
+
+type
+  TForm1 = class(TForm)
+    tProcedure: TButton;
+    tFuction: TButton;
+    TInter: TButton;
+    TConst: TButton;
+    BTNArray: TButton;
+    TArratV: TButton;
+    TFormat: TButton;
+    procedure tProcedureClick(Sender: TObject);
+    procedure tFuctionClick(Sender: TObject);
+    procedure TInterClick(Sender: TObject);
+    procedure TConstClick(Sender: TObject);
+    procedure BTNArrayClick(Sender: TObject);
+    procedure TFormatClick(Sender: TObject);
+    procedure TArratVClick(Sender: TObject);
+
+
+  private
+    { Private declarations }
+  public
+    { Public declarations }
+  end;
+
+var
+  frmProceduresFuctions: TForm1;
+
+implementation
+
+{$R *.dfm}
+
+/////PROCEDURES E FUNCTIONS/////
+
+// Isso é uma procedure
+procedure olaMundo;
+begin
+  ShowMessage('Olá Mundo!!!');
+end;
+
+//Isso é uma Função
+function RetornarNomeSobrenome: String;
+begin
+  Result := 'Lucas Howe';
+end;
+
+//Procedure com parametros por Referencia
+procedure DoubleTheValue(var Value: Integer);
+begin
+  value := value *2;
+end;
+
+// Parametros Constantes
+function DoubleTheValue2(const Value: Integer): Integer;
+begin
+  //Value := Value * 2; //compiler error
+  result := Value;
+end;
+
+//parametros com Array Aberto
+function Sum(const A: Array of Integer): Integer;
+var
+  I: Integer;
+begin
+  result := 0;
+
+  for I := Low(A) to High(A) do
+    Result := Result + a[I];
+end;
+
+procedure TForm1.BTNArrayClick(Sender: TObject);
+var
+  xSoma: Integer;
+begin
+  xSoma := Sum([1,2,3]);
+
+  ShowMessage(xSoma.ToString);
+end;
+
+procedure TForm1.TArratVClick(Sender: TObject);
+var
+ xNum1: Integer;
+ xNum2: Double;
+begin
+  xNum1 := 20;
+  xNum2 := 1500.50;
+
+  ShowMessage(
+    Format('Total do caixa é de: %d', [xNum1]));
+
+  Showmessage(
+    Format('Olá %s, money; %f', ['Lucas', xNum2]));
+end;
+
+procedure TForm1.TConstClick(Sender: TObject);
+var
+ x: Integer;
+begin
+  x := 10;
+  DoubleThevalue2(x);
+  ShowMessage(x.toString);
+end;
+
+procedure TForm1.TFormatClick(Sender: TObject);
+var
+  text : String;
+begin
+  // just 1 data item
+  ShowMessage(Format('%s', ['Hello']));
+
+  // A mix of literal text and a data item
+  ShowMessage(Format('String = %s', [Hello']));
+  ShowMessage('');
+
+  // Examples of each of the data types
+  ShowMessage(Format('Deciaml          = %d', [123]));
+  ShowMessage(Format('Exponent         = %e1, [12345.678]));
+  ShowMessage(Format('Fixed            = %f', [12345.678]));
+  ShowMessage(Format('General          = %g', [12345.678]));
+  ShowMessage(Format('Number           = %n', [12345.678))];
+  ShowMessage(Format('Moneuy           = %m', [12345.678]));
+  ShowMessage(Format('pointer          = %p', [addr(text)]));
+  ShowMessage(Format('String           = %s', ['Hello']));
+  ShowMessage(Format('Unsigned decimal = %u', [123]));
+  ShowMessage(Format('Hexadecimal      = %x1, [140]));
+end;
+
+
+
+procedure TForm1.tFuctionClick(Sender: TObject);
+var
+  xNomeSobreNome: String;
+begin
+  xNomeSobreNome := RetornarNomeSobreNome;
+  ShowMessage(xNomeSobreNome);
+end;
+
+procedure TForm1.TInterClick(Sender: TObject);
+var
+x: Integer;
+begin
+  x := 10;
+  DoubleTheValue(x);
+  ShowMessage(x.ToString);
+end;
+
+procedure TForm1.tProcedureClick(Sender: TObject);
+
+begin
+  Olamundo
+end;
+
+end.

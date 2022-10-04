@@ -1,0 +1,13 @@
+program Project5;
+
+uses
+  Vcl.Forms,
+  exercico4 in 'exercico4.pas' {Form1};
+
+{$R *.res}
+
+begin
+  Application.Initialize;
+  Application.MainFormOnTaskbar := True;
+  Application.Run;
+end.
