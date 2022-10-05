@@ -49,14 +49,14 @@ begin
 
     if Tpcliente = 1 then
     begin
-      resvalor := (consumo*0.60) - valordesconto;
+      resvalor := (consumo*0.80) - valordesconto;
       Label5.Caption:= ('O valor da conta residencial é R$' +FormatFloat('###,###,###.00',resvalor))
     end;
 
     if Tpcliente = 2 then
 
     begin
-      covalor := (consumo*0.48) - valordesconto;
+      covalor := (consumo*0.68) - valordesconto;
       Label5.Caption:= ('O valor da conta comercial é R$ ' +FormatFloat('###,###,###.00',covalor))
 
     end;
@@ -64,14 +64,14 @@ begin
     if Tpcliente = 3 then
 
     begin
-      indvalor := (consumo*1.29) - valordesconto;
+      indvalor := (consumo*1.49) - valordesconto;
       Label5.Caption:= ('O valor da conta industrial é R$ ' +FormatFloat('###,###,###.00',indvalor))
     end;
 
       if Tpcliente = 4 then
 
     begin
-      fazendavalor := (consumo*2.18) - valordesconto;
+      fazendavalor := (consumo*3.18) - valordesconto;
       Label5.Caption:= ('O valor da conta fazendária é R$ ' +FormatFloat('###,###,###.00',fazendavalor))
     end;
 
