@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2022/09/23 18:37:20.000.888,=C:\Users\lhowe\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2022/09/23 21:05:06.000.670,=C:\Users\lhowe\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2022/10/19 20:58:37.000.974,=C:\Users\lhowe\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2022/10/19 20:58:44.000.726,=C:\Users\lhowe\Documents\Embarcadero\Studio\Projects\Unit2.pas</Transaction>
+    <Transaction>2022/10/19 20:59:29.000.503,=C:\Users\lhowe\Documents\Embarcadero\Studio\Projects\Unit3.pas</Transaction>
+    <Transaction>2022/10/19 21:00:01.000.470,C:\Users\lhowe\Documents\Embarcadero\Studio\Projects\Uinformações.pas=C:\Users\lhowe\Documents\Embarcadero\Studio\Projects\Unit3.pas</Transaction>
+    <Transaction>2022/10/19 21:00:06.000.953,C:\Users\lhowe\Documents\Embarcadero\Studio\Projects\Uelevador.pas=C:\Users\lhowe\Documents\Embarcadero\Studio\Projects\Unit2.pas</Transaction>
+    <Transaction>2022/10/19 21:00:13.000.982,C:\Users\lhowe\Documents\Embarcadero\Studio\Projects\ProjetoElevador.pas=C:\Users\lhowe\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2022/10/19 21:00:13.000.982,C:\Users\lhowe\Documents\Embarcadero\Studio\Projects\ProjetoElevador.dfm=C:\Users\lhowe\Documents\Embarcadero\Studio\Projects\Unit1.dfm</Transaction>
+    <Transaction>2022/10/19 21:00:18.000.208,C:\Users\lhowe\Documents\Embarcadero\Studio\Projects\Project1.dproj=C:\Users\lhowe\Documents\Embarcadero\Studio\Projects\Project1.dproj</Transaction>
+    <Transaction>2022/10/31 20:11:41.353,=C:\Users\lhowe\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2022/10/31 20:12:20.254,C:\Users\lhowe\Documents\Sistema de pedidos de compra\UfrmPrincipal.pas=C:\Users\lhowe\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2022/10/31 20:12:20.254,C:\Users\lhowe\Documents\Sistema de pedidos de compra\UfrmPrincipal.dfm=C:\Users\lhowe\Documents\Embarcadero\Studio\Projects\Unit1.dfm</Transaction>
+    <Transaction>2022/10/31 20:12:31.718,C:\Users\lhowe\Documents\Sistema de pedidos de compra\Fornecedor.dproj=C:\Users\lhowe\Documents\Embarcadero\Studio\Projects\Project1.dproj</Transaction>
+  </Transactions>
+</BorlandProject>
